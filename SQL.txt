@@ -1,0 +1,36 @@
+DROP TABLE contact;
+CREATE TABLE contact (
+UIndex INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+PageType CHAR(20),
+LastName VARCHAR(100),
+FirstName VARCHAR(100),
+MI CHAR(1),
+CompanyPublication VARCHAR(100),
+Email VARCHAR(100),
+BusinessPhone VARCHAR(100),
+JobTitle VARCHAR(100),
+Company2 VARCHAR(100),
+Address VARCHAR(100),
+Address2 VARCHAR(100),
+City VARCHAR(100),
+ST CHAR(2),
+Zip VARCHAR(10),
+Country VARCHAR(100),
+Intl VARCHAR(100),
+Other  VARCHAR(100),
+Fax VARCHAR(100),
+Fax2 VARCHAR(100),
+Cell VARCHAR(100),
+Cell2 VARCHAR(100),
+Home  VARCHAR(100),
+Email2 VARCHAR(100),
+Website VARCHAR(100),
+Comment VARCHAR(100),
+
+Website2 VARCHAR(100),
+DateAdded DATE
+)
+
+
+
+
